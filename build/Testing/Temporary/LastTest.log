@@ -1,0 +1,39 @@
+Start testing: Dec 25 11:05 IST
+----------------------------------------------------------
+1/1 Testing: DNSResolverTest
+1/1 Test: DNSResolverTest
+Command: "/home/ullas/DNS/build/DNSResolverTest"
+Directory: /home/ullas/DNS/build
+"DNSResolverTest" start time: Dec 25 11:05 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 4 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 4 tests from DNSResolverTest
+[ RUN      ] DNSResolverTest.ValidDomainResolution
+Resolved IP: 93.184.215.14
+Resolved IP: 2606:2800:21f:cb07:6820:80da:af6b:8b2c
+[       OK ] DNSResolverTest.ValidDomainResolution (4 ms)
+[ RUN      ] DNSResolverTest.CacheBehavior
+[       OK ] DNSResolverTest.CacheBehavior (1 ms)
+[ RUN      ] DNSResolverTest.InvalidDomainResolution
+Error resolving nonexistentdomain.example: Host not found: nonexistentdomain.example
+[       OK ] DNSResolverTest.InvalidDomainResolution (39 ms)
+[ RUN      ] DNSResolverTest.RetryOnFailure
+Error resolving nonexistentdomain.example: Host not found: nonexistentdomain.example
+[       OK ] DNSResolverTest.RetryOnFailure (4 ms)
+[----------] 4 tests from DNSResolverTest (50 ms total)
+
+[----------] Global test environment tear-down
+[==========] 4 tests from 1 test suite ran. (51 ms total)
+[  PASSED  ] 4 tests.
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Passed.
+"DNSResolverTest" end time: Dec 25 11:05 IST
+"DNSResolverTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 25 11:05 IST

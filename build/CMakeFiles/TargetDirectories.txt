@@ -1,0 +1,5 @@
+/home/ullas/DNS/build/CMakeFiles/dns_resolver.dir
+/home/ullas/DNS/build/CMakeFiles/DNSResolverTest.dir
+/home/ullas/DNS/build/CMakeFiles/test.dir
+/home/ullas/DNS/build/CMakeFiles/edit_cache.dir
+/home/ullas/DNS/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/dns_resolver.dir/src/main.cpp.o CMakeFiles/dns_resolver.dir/src/DNSResolver.cpp.o CMakeFiles/dns_resolver.dir/src/DNSQuery.cpp.o -o dns_resolver  /usr/lib/x86_64-linux-gnu/libPocoNet.so.80 /usr/lib/x86_64-linux-gnu/libPocoFoundation.so.80 /usr/lib/x86_64-linux-gnu/libpcre.so /usr/lib/x86_64-linux-gnu/libz.so -lpthread -ldl -lrt 
